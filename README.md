@@ -15,14 +15,14 @@ Official setup guide: https://docs.github.com/en/pages/getting-started-with-gith
 
 - `index.html`: biography, credits, individual project cards and contact links.
 - `styles.css`: responsive dark theme from the original portfolio.
-- `site.js`: inline YouTube playback and thumbnail fallback.
+- `site.js`: retained preview helper; native YouTube embeds play without it.
 - `video-placeholder.svg`: fallback graphic if a thumbnail cannot load.
 - `.nojekyll`: serves the site as plain static files.
 
 ## Video players
 
 19 videos are shown individually: 4 YouTube videos and 15 Instagram posts.
-YouTube thumbnails open their players directly inside the cards.
+YouTube’s native embedded players display their previews and play directly inside each card.
 Instagram uses its official embed script, which sizes each player to its post rather than putting it in a short, scrolling outer iframe.
 Instagram controls, branding and any provider playback restrictions remain controlled by Instagram; this website cannot guarantee that an Instagram video plays in every browser.
 
